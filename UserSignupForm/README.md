@@ -18,7 +18,7 @@
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/AccountCreationForm.git
+    git clone https://github.com/yourusername/UserSignupForm.git
     ```
 
 2. Navigate to the project directory:
