@@ -23,7 +23,7 @@
 
 2. Navigate to the project directory:
     ```bash
-    cd AccountCreationForm
+    cd UserSignupForm
     ```
 
 3. Open `index.html` in your preferred web browser to view the project.
