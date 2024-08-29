@@ -9,18 +9,21 @@
       justify-content: center;
       font-family: "Nunito", sans-serif;
     }
+
+    #user {
+      font-size: 30px;
+      color: #215ebb;
+    }
   </style>
 </head>
 
 <body>
-  <h1>Welcome</h1><span class="user"></span>
-  <script src="./auth/auth.js"></script>
-
+  <h1>welcome, <span id="user"></span>!</h1>
   <script>
     function loadUser() {
       try {
-        const username = localStorage.getItem("username");
-        document.querySelector("#user").textContent = username;
+        const user = localStorage.getItem("username");
+        document.querySelector("#user").textContent = user;
       }
       catch (e) {
         console.error("Error saving username to localStorage:", e);

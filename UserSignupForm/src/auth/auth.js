@@ -8,7 +8,7 @@ function handleSubmit(event) {
 
   try {
     localStorage.setItem('username', username); // Store username in localStorage.
-    // window.location.href = '../index.html';
+    window.location.href = '../index.html';
   }
   catch (e) {
     console.error("Error saving username to localStorage:", e);
